@@ -15,9 +15,12 @@ html {
   font-size: 22px;
   font-weight: 300;
   line-height: 1;
-  @media (min-width: 38em) {
-    font-size: 25px;
 }
+
+@media (min-width: 38em) {
+  html {
+    font-size: 25px;
+  }
 }
 
 body {

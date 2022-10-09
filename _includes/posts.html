@@ -4,7 +4,7 @@
   {% else %}
   
   {% for post in site.posts reversed %}
-  <a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+  <a href="{{ post.destlink}}" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
 
     <div class="list-item-icon container align-items-center justify-content-center">
       <span class="feather-icon icon-{{post.icon}}" data-aos="fade-right" data-aos-offset="0" data-aos-delay="500"></span>
@@ -30,4 +30,8 @@
   </a>
   {% endfor %} 
   {% endif %}
+  <div>
+    <a href="https://www.buymeacoffee.com/jolamch"><img src="{{ site.baseurl }}/assets/img/bmc-button.png" alt="Buy me a coffee" style="width:300px;height:80px;"></a>
+    <a href="https://www.buymeacoffee.com/jolamch"></a>
+  </div>
 </div>
