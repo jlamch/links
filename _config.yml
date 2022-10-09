@@ -1,0 +1,42 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: "Joanna Lamch. Programistka i kot"
+email: programistkaikot@gmail.com
+description: "Link me."
+baseurl: "/links"
+url: "https://jlamch.net"
+twitter_username: "jlamch"
+github_username:  "jlamch"
+color_theme:  "#765B8A"
+color_text:  "#fff"
+language:  "en"
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+gems: [jekyll-paginate]
+paginate: 5
+
+# Plugins
+plugins_dir:
+  - jekyll-admin
+
+social:
+- title: facebook
+  url: https://www.facebook.com/jlamch
+- title: star
+  url: https://www.linkedin.com/in/joannalamch/  
+- title: twitter
+  url: http://twitter.com/jlamch
+- title: github
+  url: http://github.com/jlamch
+- title: book
+  url: https://programistkaikot.pl
+- title: facebook
+  url: https://www.facebook.com/programistkaikot
