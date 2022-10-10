@@ -9,8 +9,8 @@
 title: "Joanna Lamch. Programistka i kot"
 email: programistkaikot@gmail.com
 description: "Link me."
-baseurl: "/links"
-url: "https://jlamch.net"
+baseurl: ""
+url: "https://jldev.pl"
 twitter_username: "jlamch"
 github_username:  "jlamch"
 color_theme:  "#765B8A"
